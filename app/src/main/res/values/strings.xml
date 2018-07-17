@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="title_activity_news_detail">NewsDetails</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blog_post_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vinoth.blogreader.BlogPostDetailActivity">
+
+    <ImageView
+        android:id="@+id/ivblogimag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="image"
+        android:src="@drawable/place_holder_big" />
+
+    <TextView
+        android:id="@+id/tvblogtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:gravity="left"
+        android:text="Title"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/tvblogdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autoLink="web|email|phone|map|all"
+        android:autoText="true"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:text="desc"
+        android:textColor="@android:color/black" />
+</LinearLayout>
