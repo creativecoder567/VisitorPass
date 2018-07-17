@@ -1,1 +1,1 @@
-include ':app', ':news', ':news_creater'
+include ':app', ':news_creater'
